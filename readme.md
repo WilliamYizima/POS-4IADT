@@ -5,6 +5,14 @@ jupyter notebook 6.5.2
 
 ## fontes:
 
+### insurance_original.csv
+
+inserir fonte
+
+---
+
+### insurance_example.csv
+
 dataset:
 https://www.kaggle.com/code/nishxnt/medical-insurance-cost-prediction-python/input
 
