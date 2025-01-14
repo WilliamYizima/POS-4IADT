@@ -55,7 +55,7 @@ warnings.filterwarnings('ignore')
 #------------------------------------------
 #carrega o dataset original, sem tratamento
 #insurance_dataset = pd.read_csv('G:\\Users\\ricar\\Downloads\\insuranceV3.csv',decimal=',',sep=';')
-insurance_dataset = pd.read_csv('G:\\Users\\ricar\\Downloads\\TCC_1 - IA - FIAP\\insurance Original 2.csv', decimal=',', sep=';')
+insurance_dataset = pd.read_csv('insurance Original 2.csv', decimal=',', sep=';')
 
 # Conjunto de comandos para avaliar o dataset
 #mostra os cabeçalhos
@@ -248,7 +248,7 @@ plt.show()
 
 # Aqui começamos a preparar para regressão
 # Equação de regressão linear simples
-# Yi = I + a * Xi + Ei
+# Yi = I + a * Xi + Ei 
 # diz que x é tudo menos encargos e y são os encargos
 X = insurance_fase1.drop(columns='encargos', axis=1)
 Y = insurance_fase1['encargos']
@@ -375,10 +375,13 @@ print('Total Variance Explained:', round(sum(list(pca.explained_variance_ratio_)
 # Aqui termina o PCA
 #-------------------------------------------
 # Aqui inicia
-np = insurance_fase1.copy()
+# Para um modelo de classificação vamos definir um alvo
+# No caso, nosso alvo seria a aprovação dos encargos.
+# Salva uma cópia
+#np = insurance_fase1.copy()
 # Criando a variável alvo (1 para aprovado, 0 para não aprovado)
 # Os valores são aleatorios.. para testar..
-alvo = np.where((idade < 64) & (encargos  > 100), 1, 0)
+#alvo = np.where(np["idade"] > 17 , 1, 0)
 
 # Criando o DataFrame
 data = insurance_fase1.copy()
@@ -395,8 +398,8 @@ data = data_shuffled
 # Pré-processamento dos dados
 # Vamos supor que o conjunto de dados possui as seguintes colunas: 'idade', 'encargos', 'fumante', 'alvo' (0 para não aprovado, 1 para aprovado)
 # Separando features (X) e target (y)
-X = data.drop('alvo', axis=1)
-y = data['alvo']
+#X = data.drop('alvo', axis=1)
+#y = data['alvo']
 
 # Dividindo o conjunto de dados em treino e teste
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
