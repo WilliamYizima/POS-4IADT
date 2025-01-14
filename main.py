@@ -248,7 +248,7 @@ plt.show()
 
 # Aqui começamos a preparar para regressão
 # Equação de regressão linear simples
-# Yi = I + a * Xi + Ei 
+# Yi = I + a * Xi + Ei
 # diz que x é tudo menos encargos e y são os encargos
 X = insurance_fase1.drop(columns='encargos', axis=1)
 Y = insurance_fase1['encargos']
@@ -454,7 +454,7 @@ for i in k:
 
 #arvores
 #subindo a base de dados
-dados = insurance_fase1.coy()
+dados = insurance_fase1.copy()
 
 #Separando os dados em treino e teste:
 x = dados.drop(columns=['encargos'])
