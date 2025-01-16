@@ -1,7 +1,7 @@
 ## ENV
 
-Python 3.10.14
-jupyter notebook 6.5.2
+- Python 3.10.14
+- jupyter notebook 6.5.2
 
 ## Participantes
 
