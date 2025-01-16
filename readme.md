@@ -3,6 +3,23 @@
 Python 3.10.14
 jupyter notebook 6.5.2
 
+## Participantes
+
+Rafael Alves Cardoso
+rafaell-alves@outlook.com
+
+Silvio Cezer Saczuck
+saczuck@gmail.com
+
+Luciano Giles Soares
+luciano.giles@gmail.com
+
+William Judice Yizima
+william.yizima@hotmail.com
+
+Luiz Ricardo Zinsly Calmon
+luiz.calmon@spread.com.br
+
 ## Run
 
 É sempre interessante criar uma env para rodar
