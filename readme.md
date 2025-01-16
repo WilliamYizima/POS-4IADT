@@ -5,19 +5,19 @@ jupyter notebook 6.5.2
 
 ## Participantes
 
-Rafael Alves Cardoso
+Rafael Alves Cardoso -
 RM 360124
 
-Silvio Cezer Saczuck
-rm360204
+Silvio Cezer Saczuck -
+RM 360204
 
-Luciano Giles Soares
+Luciano Giles Soares -
 RM 359834
 
-William Judice Yizima
+William Judice Yizima -
 RM 360214
 
-Luiz Ricardo Zinsly Calmon
+Luiz Ricardo Zinsly Calmon -
 RM359894
 
 ## Run
