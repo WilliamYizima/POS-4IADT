@@ -6,19 +6,19 @@ jupyter notebook 6.5.2
 ## Participantes
 
 Rafael Alves Cardoso
-rafaell-alves@outlook.com
+RM 360124
 
 Silvio Cezer Saczuck
-saczuck@gmail.com
+rm360204
 
 Luciano Giles Soares
-luciano.giles@gmail.com
+RM 359834
 
 William Judice Yizima
-william.yizima@hotmail.com
+RM 360214
 
 Luiz Ricardo Zinsly Calmon
-luiz.calmon@spread.com.br
+RM359894
 
 ## Run
 
